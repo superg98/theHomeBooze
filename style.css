@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    /* CHANGE THE COMPUTER-VERSION BACKGROUND
+        - Add image to the "images" file
+        - Change the "url(images/new_name.jpg)" section
+        Can add color filters with the Linear Gradient section
+    */
+    /* background-color: rgb(47, 0, 89); */
+    /* background: linear-gradient(rgb(47, 0, 89), black); */
+    background-image: url("img/rm251-aum-15.jpg");
+    background-position: 50%;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    color: black;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    opacity: 100%;
+    text-decoration: none;
+    font-size: 35px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: grey;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links i{
+  width: 25px;
+  left: auto;
+}
+.nav-links i:hover{
+  opacity: 70%;
+}
+
+body {
+    color: #ccc;
+    background: #111;
+    font-family: sans-serif;
+}
+  
+h1{
+    font-size: 40px;
+}
+h2 {
+    margin: 0;
+}
+h3{
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+a {
+    color: #ccc;
+}
+
+.top-logo {
+    align-items: center;
+}
+.top-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.where-to-listen {
+    text-align: center;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 50%;
+}
+.where-to-listen button{
+    background-color: rgb(98, 245, 255);
+    border-radius: 35px;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.where-to-listen button :hover{
+    opacity: 60%;
+}
+
+.meet-characters {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .column-1 {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.column-2 {
+    float: right;
+    width: 50%;
+
+} */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 50%;
+}
+
+.footer-content{
+    text-align: center;
+    background: transparent;
+}
