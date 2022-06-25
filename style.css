@@ -66,6 +66,7 @@ body {
     color: #ccc;
     background: #111;
     font-family: sans-serif;
+    margin-bottom: 20px;
 }
   
 h1{
@@ -116,13 +117,24 @@ a {
     opacity: 60%;
 }
 
-.meet-characters {
+.schedule{
     text-align: center;
+    border-radius: 35px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: black;
+    width: 50%;
+}
+
+.meet-characters {
+    text-align: center;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 50%;
 }
 /* .column-1 {
     float: left;
@@ -142,7 +154,7 @@ a {
     width: 50%;
 }
 
-.footer-content{
-    text-align: center;
-    background: transparent;
+footer {
+    margin-top: 10vh;
+    background-color: rgba(98, 245, 255, 0));
 }
